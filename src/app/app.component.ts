@@ -6,5 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'test-jenkins';
+
+   counter : number = 0;
+    
+    increment(){
+      this.counter += 1;
+    }
+    
+    decrement(){
+      this.counter -= 1;
+    }
+
 }
